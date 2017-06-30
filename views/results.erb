@@ -1,13 +1,18 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-  </head>
+	<head>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
   <body>
   
-   
-   
+  <div class="answer">
+  <ol>
+  <%@answer.each do |step|%>
+  <li><%=step%></li>
+  <%end%>
+</ol>
+   </div>
    
    
   </body>

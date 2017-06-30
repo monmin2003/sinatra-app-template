@@ -62,7 +62,7 @@ def criminal (info)
       
     elsif info == "Murder"
     ["MURDER:",
-    "If you killed someone: call 911 immediately and come clean to the police about what happened. Get a good lawyer you will help to minimize your punishment. It's better to serve your time than to live with guilt and fear that you will get caught.", "If you witnessed a murder: Try not to be seen by the murderer and try to remember everything about the murdered as you can. Once the scene is safe, call 911 and tell them everything you witnessed, specifically information about the murderer. Absolutely do not touch the body and remain at the scene until the police arrive."]
+    "If you killed someone: call 911 immediately and come clean to the police about what happened. Get a good lawyer that will help you to minimize your punishment. It's better to serve your time than to live with guilt and fear that you will get caught.", "If you witnessed a murder: Try not to be seen by the murderer and try to remember everything about the murderer as you can. Once the scene is safe, call 911 and tell them everything you witnessed, specifically information about the murderer. Absolutely do not touch the body and remain at the scene until the police arrive."]
    
     elsif info == "Shooting"
     ["SHOOTING:",
@@ -114,11 +114,10 @@ end
 def perssafe (info)
     if info == "Self-defense"
         ["SELF-DEFENSE:",
-        "When it comes to defending oneself, always remember that prevention is the best defense. Refrain from traveling alone in crowded or suspicious areas, and always park in well-lit zones."]
+        "When it comes to defending oneself, always remember that prevention is the best defense. Refrain from traveling alone in crowded or suspicious areas, and always park in well-lit zones.", "If attacked, remember to shout loudly to draw attention to the situation", "If someone approaches you in a threatening manner, speak loudly and tell them to not come any closer", "To fight an attacker, aim to hit the weakest areas: eyes, knees, and groin"]
     elsif info == "Sexual Violence"
         ["SEXUAL VIOLENCE:",
-       "If you have been sexually assaulted, do not shower or urinate, otherwise all evidence will be destroyed.",
-       "Call 911 and if you would like support, call the National Sexual Assault Hotline: 800.656.HOPE (4673)"]
+       "If you have been sexually assaulted, do not shower or urinate, otherwise all evidence will be destroyed.","Call 911 and if you would like support, call the National Sexual Assault Hotline: 800.656.HOPE (4673)"]
     elsif info == "Mental Health"
     ["MENTAL HEALTH TIPS:",
     "You are not alone. Storms don't last forever. If you are depressed, sucidal, or have eating disorders, contact your local hospital to be properly diagnosed.",
@@ -156,7 +155,7 @@ def other (info)
         "If a shark comes near you in water, don't look away from it and avoid quick movements", 
         "Escape the shark by using any tool accessible to you and hitting the shark's eyes, gills, and snout", 
         "If the shark leaves you, get out of the water as quickly as you can but avoid thrashing in the water because that will disperse your blood and get that shark's attention again", 
-        "Once on land, cal 911 and get medical attention"]
+        "Once on land, call 911 and get medical attention"]
     elsif info == "Skin Care EMERGENCY"
         ["SKIN CARE EMERGENCY:", 
         "First of all, don't fret. It's never as bad as yu think it is", 
